@@ -1,0 +1,56 @@
+[    
+{
+    "name": "generieke-terugmeldfaciliteit",
+    "type": "ap",
+    "eap": "OSLO-Generieke-Terugmeldfaciliteit-AP.eap",
+    "diagram": "OSLO-Generieke-Terugmeldfaciliteit",
+    "template": "generieke-terugmeldfaciliteit-ap.j2",
+    "title": "Generieke Terugmeldfaciliteit",
+	"publication-state": "https://data.vlaanderen.be/id/conceptscheme/StandaardStatus/OntwerpdocumentInOntwikkeling",
+    "publication-date": "12-12-2018",
+    "contributors-file": "stakeholders.csv",
+    "contributors-column": "Melding",
+    "config" : "config/config-ap.json",
+    "site": "site-skeleton/generieke-terugmeldfaciliteit"
+  },
+    {
+    "name": "notificatie-basis",
+    "type": "ap",
+    "eap": "OSLO-Notificatie-Basis-AP.eap",
+    "diagram": "OSLO-Notificatie-Basis",
+    "template": "notificatiecomponent-ap.j2",
+    "title": "Notificatie Basis",
+	"publication-state": "https://data.vlaanderen.be/id/conceptscheme/StandaardStatus/OntwerpdocumentInOntwikkeling",
+    "publication-date": "12-12-2018",
+    "contributors-file": "stakeholders.csv",
+    "contributors-column": "Notificatie",
+    "config" : "config/config-ap.json",
+    "site": "site-skeleton/notificatie-basis"
+  },
+  {
+    "name": "melding",
+    "type": "voc",
+    "eap": "OSLO-Vocabularium-Burgerprofiel.eap",
+    "diagram": "OSLO-Melding",
+    "template": "melding-voc.j2",
+	"publication-state": "https://data.vlaanderen.be/id/conceptscheme/StandaardStatus/OntwerpdocumentInOntwikkeling",
+    "publication-date": "12-12-2018",
+    "contributors-file": "stakeholders.csv",
+    "contributors-column": "Melding",
+    "config" : "config/config-voc.json",
+    "site": "site-skeleton"
+  },
+  {
+    "name": "notificatie",
+    "type": "voc",
+    "eap": "OSLO-Vocabularium-Burgerprofiel.eap",
+    "diagram": "OSLO-Notificatie",
+    "template": "notificatie-voc.j2",
+	"publication-state": "https://data.vlaanderen.be/id/conceptscheme/StandaardStatus/OntwerpdocumentInOntwikkeling",
+    "publication-date": "12-12-2018",
+    "contributors-file": "stakeholders.csv",
+    "contributors-column": "Notificatie",
+    "config" : "config/config-voc.json",
+    "site": "site-skeleton"
+  }
+]
