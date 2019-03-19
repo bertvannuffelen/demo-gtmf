@@ -14,7 +14,7 @@
     "site": "site-skeleton/generieke-terugmeldfaciliteit"
   },
     {
-    "name": "notificatie-basis",
+    "name": "notificatiecomponent",
     "type": "ap",
     "eap": "OSLO-Notificatie-Basis-AP.eap",
     "diagram": "OSLO-Notificatie-Basis",
@@ -25,7 +25,7 @@
     "contributors-file": "stakeholders.csv",
     "contributors-column": "Notificatie",
     "config" : "config/config-ap.json",
-    "site": "site-skeleton/notificatie-basis"
+    "site": "site-skeleton/notificatiecomponent"
   },
   {
     "name": "melding",
