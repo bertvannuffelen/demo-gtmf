@@ -6,12 +6,14 @@
     "diagram": "OSLO-Generieke-Terugmeldfaciliteit",
     "template": "generieke-terugmeldfaciliteit-ap.j2",
     "title": "Generieke Terugmeldfaciliteit",
-	"publication-state": "https://data.vlaanderen.be/id/conceptscheme/StandaardStatus/OntwerpdocumentInOntwikkeling",
-    "publication-date": "12-12-2018",
+	"publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpdocumentInOntwikkeling",
+    "publication-date": "07-02-2018",
     "contributors-file": "stakeholders.csv",
     "contributors-column": "Melding",
     "config" : "config/config-ap.json",
-    "site": "site-skeleton/generieke-terugmeldfaciliteit"
+    "site": "site-skeleton/generieke-terugmeldfaciliteit",
+	"feedbackurl": "https://github.com/informatievlaanderen/OSLO-Discussion", 
+    "standaardregisterurl" : "https://data.vlaanderen.be/standaarden"
   },
     {
     "name": "notificatiecomponent",
@@ -20,12 +22,14 @@
     "diagram": "OSLO-Notificatie-Basis",
     "template": "notificatiecomponent-ap.j2",
     "title": "Notificatie Basis",
-	"publication-state": "https://data.vlaanderen.be/id/conceptscheme/StandaardStatus/OntwerpdocumentInOntwikkeling",
-    "publication-date": "12-12-2018",
+	"publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpdocumentInOntwikkeling",
+    "publication-date": "07-02-2018",
     "contributors-file": "stakeholders.csv",
     "contributors-column": "Notificatie",
     "config" : "config/config-ap.json",
-    "site": "site-skeleton/notificatiecomponent"
+    "site": "site-skeleton/notificatiecomponent",
+	"feedbackurl": "https://github.com/informatievlaanderen/OSLO-Discussion", 
+    "standaardregisterurl" : "https://data.vlaanderen.be/standaarden"
   },
   {
     "name": "melding",
@@ -33,12 +37,15 @@
     "eap": "OSLO-Melding-VOC.eap",
     "diagram": "OSLO-Melding",
     "template": "melding-voc.j2",
-	"publication-state": "https://data.vlaanderen.be/id/conceptscheme/StandaardStatus/OntwerpdocumentInOntwikkeling",
-    "publication-date": "12-12-2018",
+	"title": "Melding",
+	"publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpdocumentInOntwikkeling",
+    "publication-date": "07-02-2018",
     "contributors-file": "stakeholders.csv",
     "contributors-column": "Melding",
     "config" : "config/config-voc.json",
-    "site": "site-skeleton"
+    "site": "site-skeleton",
+	"feedbackurl": "https://github.com/informatievlaanderen/OSLO-Discussion", 
+    "standaardregisterurl" : "https://data.vlaanderen.be/standaarden"
   },
   {
     "name": "notificatie",
@@ -46,11 +53,14 @@
     "eap": "OSLO-Notificatie-VOC.eap",
     "diagram": "OSLO-Notificatie",
     "template": "notificatie-voc.j2",
-	"publication-state": "https://data.vlaanderen.be/id/conceptscheme/StandaardStatus/OntwerpdocumentInOntwikkeling",
-    "publication-date": "12-12-2018",
+	"title": "Notificatie",
+	"publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpdocumentInOntwikkeling",
+    "publication-date": "07-02-2018",
     "contributors-file": "stakeholders.csv",
     "contributors-column": "Notificatie",
     "config" : "config/config-voc.json",
-    "site": "site-skeleton"
+    "site": "site-skeleton",
+	"feedbackurl": "https://github.com/informatievlaanderen/OSLO-Discussion", 
+    "standaardregisterurl" : "https://data.vlaanderen.be/standaarden"
   }
 ]
